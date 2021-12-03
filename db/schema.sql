@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS sequel_db;
+
+CREATE DATABASE sequel_db;
+
+use sequel_db;
+
+DROP TABLE IF EXISTS tableOne;
+
+CREATE TABLE tableOne (
+id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ name VARCHAR(50) NOT NULL 
+);
